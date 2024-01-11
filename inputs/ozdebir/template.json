@@ -1,0 +1,56 @@
+{
+  "pageDimensions": [
+    1751,
+    1244
+  ],
+  "bubbleDimensions": [
+    30,
+    14
+  ],
+  "customLabels": {
+    "Okul_Kodu": [
+      "code1..8"
+    ] ,
+    "Ogrenci_No": [
+      "studentNum1..5"
+    ] 
+  },
+  "fieldBlocks": {
+    "Okul_Kodu": {
+      "fieldType": "QTYPE_INT",
+      "fieldLabels": [
+        "code1..8"
+      ],
+      "bubblesGap": 18,
+      "labelsGap": 34,
+      "origin": [
+        115,
+        126
+      ]
+    },    
+    "Ogrenci_No": {
+      "fieldType": "QTYPE_INT",
+      "fieldLabels": [
+        "studentNum1..5"
+      ],
+      "bubblesGap": 17,
+      "labelsGap": 34,
+      "origin": [
+        467,
+        130
+      ]
+    },
+    "MCQ_Block_1": {
+      "fieldType": "QTYPE_MCQ5",
+      "origin": [
+        883,
+        396
+      ],
+      "fieldLabels": [
+        "q1..46"
+      ],
+      "labelsGap": 17.8,  
+      "bubblesGap": 35
+    }
+  }
+}

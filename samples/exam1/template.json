@@ -1,0 +1,52 @@
+{
+  "pageDimensions": [
+    650,
+    950
+  ],
+  "bubbleDimensions": [
+    30,
+    30
+  ],
+  "customLabels": {
+    "Okul_Kodu": [
+      "code1..8"
+    ] 
+  },
+  "fieldBlocks": {
+    "Okul_Kodu": {
+      "fieldType": "QTYPE_INT",
+      "fieldLabels": [
+        "code1..8"
+      ],
+      "bubblesGap": 34,
+      "labelsGap": 34,
+      "origin": [
+        115,
+        126
+      ]
+    },    
+    "Ogrenci_No": {
+      "fieldType": "QTYPE_INT",
+      "fieldLabels": [
+        "studentNum1..5"
+      ],
+      "bubblesGap": 25,
+      "labelsGap": 25,
+      "origin": [
+        481,
+        177
+      ]
+    }
+  },
+  "preProcessors": [
+    {
+      "name": "CropPage",
+      "options": {
+        "morphKernel": [
+          10,
+          10
+        ]
+      }
+    }
+  ]
+}
